@@ -1,1 +1,25 @@
-theme: jekyll-theme-modernist
+title: Azure Data Services Go Fast Documentation
+lang: en
+description: Documentation for the Azure Data Services Go Fast Framework. A framework for rapid deployment and configuration of common Azure Data Services Architectures.
+
+## local method ##
+#theme: jekyll-rtd-theme
+#debug:
+#  compress: false
+#  dist: true
+#  shortcodes: true
+
+## remote method ##
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
