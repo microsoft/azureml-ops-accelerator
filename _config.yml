@@ -1,0 +1,25 @@
+title: Azure ML-Ops (Accelerator)
+lang: en
+description: Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide a reference approach to implementing MLOps on Azure leveraging Azure ML. 
+
+## local method ##
+#theme: jekyll-rtd-theme
+#debug:
+#  compress: false
+#  dist: true
+#  shortcodes: true
+
+## remote method ##
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
