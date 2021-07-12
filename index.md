@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 Your org has been maturing its data platform implemented on Azure using a combination of services like Data Factory, Datalake storage, Databricks, Synapse and Power BI delivering a modern analytics and BI experience to your business. Now you've decided to embark on your journey to grow the ML-Ops maturity in your org to embed AI to transform your business. You've made the decision to  implement a cloud scale architecture backed by Azure ML. 
 
@@ -24,4 +24,5 @@ Question is - where do I get started, how do I go about implementing ML Ops usin
 
 This repo hence aims to present a documented approach that enables you to go from zero to a reference baseline implementation drawing on our delivery experience with actual customers. To achieve this, we aim to bring together the plethora of documentation, architecture design guides, IaaC and code artefacts across the Microsoft open source references in a cohesive manner that can be used to accelerate a scoped implementation project.     
 
-**A key caveat:** ML Ops by its very nature has many different alternatives to implementation across all aspects, particularly around the definition and implementation an operating model that takes into account the nuances of your own organisational structures, roles and processes and is fit for purpose. Hence the accelerator aims to offer guidance and reusable references that can be adapted with minimal refactoring to address a wide range of common scenarios, rather than be highly prescriptive and limit its reach.    
+# A key caveat 
+ML Ops by its very nature has many different alternatives to implementation across all aspects, particularly around the definition and implementation an operating model that takes into account the nuances of your own organisational structures, roles and processes and is fit for purpose. Hence the accelerator aims to offer guidance and reusable references that can be adapted with minimal refactoring to address a wide range of common scenarios, rather than be highly prescriptive and limit its reach.    
