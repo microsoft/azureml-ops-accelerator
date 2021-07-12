@@ -1,6 +1,6 @@
-title: Azure Data Services Go Fast Documentation
+title: MLOps with Azure ML (Accelerator)
 lang: en
-description: Documentation for the Azure Data Services Go Fast Framework. A framework for rapid deployment and configuration of common Azure Data Services Architectures.
+description: Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide a reference approach to implementing MLOps on Azure leveraging Azure ML. 
 
 ## local method ##
 #theme: jekyll-rtd-theme
