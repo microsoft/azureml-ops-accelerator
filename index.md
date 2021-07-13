@@ -1,1 +1,12 @@
-<meta http-equiv="refresh" content="0; url=https://github.com/microsoft/azureml-ops-accelerator/blob/main/0-Introduction/index.md">
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1;url=https://microsoft.github.io/azureml-ops-accelerator/0-Introduction/">
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        If you are not redirected automatically, 
+        follow the <a href="https://microsoft.github.io/azureml-ops-accelerator/0-Introduction/">link to the documentation</a>
+    </body>
+</html>
