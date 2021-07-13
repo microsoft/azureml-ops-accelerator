@@ -1,7 +1,8 @@
-# Azure ML-Ops Accelerator 
-Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide a reference approach to a baseline MLOps implementation on Azure leveraging Azure ML that can be delivered in approximately 12 weeks. 
+# Azure ML-Ops Accelerator
 
-This repo is designed to be consumed 'documentation led', with the relevant IaaC or implementation code artefacts linked at the approapriate sections. Start here: https://microsoft.github.io/azure-mlops-accelerator/
+Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide reference IP to a support a baseline MLOps implementation on Azure leveraging Azure ML that can be delivered in approximately 12 weeks. 
+
+This repo is designed to be consumed 'documentation led', with the relevant IaaC or implementation code artefacts linked at the appropriate sections. Start here: <https://microsoft.github.io/azure-mlops-accelerator/>
 
 ## Contributing 
 
