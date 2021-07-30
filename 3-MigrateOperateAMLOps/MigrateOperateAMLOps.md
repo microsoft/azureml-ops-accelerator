@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 3
 ---
 # Migrating first ML workload to ML Ops on Azure
 
