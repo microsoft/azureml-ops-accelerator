@@ -1,0 +1,17 @@
+target: cpu-cluster
+framework: Python
+communicator: None
+nodeCount: 1
+environment:
+  environmentVariables:
+    EXAMPLE_ENV_VAR: EXAMPLE_VALUE
+  python:
+    userManagedDependencies: false
+    interpreterPath: python
+    condaDependenciesFile: ../../models/model1/aml_config/train-conda.yml
+  docker:
+    enabled: true
+    baseImage: mcr.microsoft.com/azureml/base:intelmpi2018.3-ubuntu16.04
+    arguments: []
+mpi:
+    processCountPerNode: 1

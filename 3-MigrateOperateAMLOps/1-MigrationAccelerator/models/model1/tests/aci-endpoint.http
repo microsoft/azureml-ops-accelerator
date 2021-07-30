@@ -1,0 +1,22 @@
+
+# Open this file in vscode and use it with the rest-client plugin
+
+# Open this file in vscode and use it with the rest-client plugin
+
+POST http://<://<url-to-your-aci-endpoint>/score HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer <your-api-key-goes-here>
+
+{
+    "data": [{
+    "Age": 20,
+    "Sex": "male",
+    "Job": 0,
+    "Housing": "own",
+    "Saving accounts": "little",
+    "Checking account": "little",
+    "Credit amount": 100,
+    "Duration": 48,
+    "Purpose": "radio/TV"
+  }]
+}

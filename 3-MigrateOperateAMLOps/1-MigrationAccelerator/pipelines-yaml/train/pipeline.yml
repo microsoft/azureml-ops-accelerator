@@ -1,0 +1,22 @@
+# full example: https://docs.microsoft.com/en-us/python/api/azureml-pipeline-core/azureml.pipeline.core.pipeline.pipeline?view=azure-ml-py#load-yaml-workspace--filename---workflow-provider-none---service-endpoint-none-
+
+pipeline:
+  description: Training pipeline
+  default_compute: cpu-cluster # Point to your compute cluster
+  data_references:
+    training_dataset:
+      dataset_name: german-credit-dataset # Point to your dataset
+  steps:
+    TrainingStep:
+      type: PythonScriptStep
+      name: training-step
+      source_directory: ../../models/model1/
+      runconfig: runconfig.yml
+      allow_reuse: true
+      script_name: train.py # Adapt to your training script
+      arguments: [--data-path, /data] # Adapt to your training script's arguments
+      inputs:
+        training_data:
+          source: training_dataset
+          bind_mode: mount
+          path_on_compute: /data

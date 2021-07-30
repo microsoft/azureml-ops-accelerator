@@ -1,0 +1,11 @@
+# All files and folders specified here will not be sent to Azure Machine Learning during training or inferecing
+# This file follows to normal .gitignore syntax
+
+.ipynb_checkpoints
+.azureml
+.git
+outputs
+logs
+azureml-setup
+docs
+__pycache__

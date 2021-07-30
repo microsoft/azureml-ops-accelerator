@@ -1,0 +1,24 @@
+# full example: https://docs.microsoft.com/en-us/python/api/azureml-pipeline-core/azureml.pipeline.core.pipeline.pipeline?view=azure-ml-py#load-yaml-workspace--filename---workflow-provider-none---service-endpoint-none-
+
+pipeline:
+  description: Batch inferecing pipeline
+  default_compute: cpu-cluster
+  data_references:
+    batch_dataset:
+      dataset_name: german-credit-batch # point to your dataset
+  steps:
+    BatchInferecingStep:
+      type: ParallelRunStep
+      name: batch-inferencing-step
+      parallel_run_config: runconfig.yml
+      arguments: [--model_name, german-credit] # Adapt to your batch scoring script's arguments
+      allow_reuse: false
+      inputs:
+          batch_dataset:
+              source: batch_dataset
+              bind_mode: mount
+      outputs:
+          batch_output:
+              datastore: workspaceblobstore # point to your output datastore
+              destination: batch_output
+              bind_mode: mount

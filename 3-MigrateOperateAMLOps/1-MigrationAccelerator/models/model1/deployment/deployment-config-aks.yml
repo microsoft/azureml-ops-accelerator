@@ -1,0 +1,19 @@
+computeType: AKS
+
+autoScaler:
+    autoscaleEnabled: True
+    minReplicas: 1
+    maxReplicas: 3
+    refreshPeriodInSeconds: 10
+    targetUtilization: 70
+
+containerResourceRequirements:
+    cpu: 1
+    memoryInGB: 2
+
+authEnabled: True
+tokenAuthEnabled: False
+sslEnabled: False
+appInsightsEnabled: True
+maxQueueWaitMs: 500
+scoringTimeoutMs: 5000
