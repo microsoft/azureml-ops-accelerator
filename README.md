@@ -1,4 +1,4 @@
-# DEVTEST Azure ML-Ops Accelerator
+# Azure ML-Ops Accelerator
 
 Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide reference IP to a support a baseline MLOps implementation on Azure leveraging Azure ML that can be delivered in approximately 12 weeks. 
 
