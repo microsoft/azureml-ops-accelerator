@@ -1,8 +1,0 @@
-computeType: ACI
-
-containerResourceRequirements:
-  cpu: 1
-  memoryInGB: 2
-
-authEnabled: True
-appInsightsEnabled: True

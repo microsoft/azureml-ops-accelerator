@@ -1,5 +1,0 @@
-entryScript: score.py
-sourceDirectory: ./
-runtime: python
-condaFile: aml_config/inference-conda.yml
-enableGpu: False
