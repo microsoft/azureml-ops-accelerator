@@ -31,6 +31,6 @@ This repo hence aims to present a documented approach that enables you to go fro
 
 ML Ops by its very nature has many different alternatives to implementation across all aspects, particularly around the definition and implementation an operating model that takes into account the nuances of your own organisational structures, roles and processes and is fit for purpose. Hence MLOps is very much a growth journey, rather than a precise destination. Therefore this accelerator aims to offer guidance and reusable references that:
 
-1. Aims to mature from Stage 0 to partial automation required to get to Stage 2 or 3 of the MLOps maturity curve <https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-maturity-model>  
+1. Aims to mature from Stage 0 to partial automation required to get to [Stage 2 or 3 of the MLOps maturity curve](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-maturity-model)  
 2. Can be adapted with minimal refactoring to address a wide range of common scenarios, rather than be highly prescriptive and limit its reach.
-3. Provides about 80% of the material that can be reused to accelerate the an implementation project that for this scope above is expected to take between 10-12 weeks.  
+3. Provides about 80% of the material that can be reused to accelerate an implementation project that for this scope above is expected to take between 10-12 weeks.  
