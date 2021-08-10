@@ -1,5 +1,5 @@
 ---
-sort: 1
+sort: 0
 ---
 # What is DevOps?
 **Source**: [Microsoft Docs: What is DevOps?](https://docs.microsoft.com/en-us/azure/devops/overview/what-is-devops)
