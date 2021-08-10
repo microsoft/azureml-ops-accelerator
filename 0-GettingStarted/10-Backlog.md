@@ -15,7 +15,7 @@ sort: 10
 |Design     | Update Roles to skills map        |         |   Open      |
 |Design     | Update Roles to access control map        |         |   Open      |
 |Design     | Update Skilling Plan        |         |    Open     |
-|Design     |  Infra: Tech Choices - Update AML Tech Choices        |         |   Open     |
+|Design     |  Infra: Tech Choices - Update AML Tech Choices        |         |   Completed     |
 |Design     |  Infra: Tech Choices - Add Distributed Training/ Scoring Guide        |         |   Open     |
 |Design     |  Infra: Update Edge Guide       |         |  Open       |
 |Design    | Workspace: Update Design Guide         |         |   Open      |
@@ -27,5 +27,5 @@ sort: 10
 |Deploy     |Implementation templates: Update Tf Guide         |         |    Open     |
 |Deploy    |Governance: Update cost management article         |         |    Open     |
 |Migrate Operate   | Accel Template: Update intro        |         |    Open     |
-|Migrate Operate     |Ops Guide: Add AML Best Practices         |         |    Open     |
+|Migrate Operate     |Ops Guide: Add AML Best Practices         |         |    Completed     |
 |Migrate Operate    |Ops Guide: Add PRS Performance Tuning Guide         |         |    Open     |
