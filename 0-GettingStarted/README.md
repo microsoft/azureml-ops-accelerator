@@ -3,8 +3,6 @@ sort: 0
 ---
 # Accelerator Guide
 
-Details on how to use this accelerator
-
 **DRAFT**
 
 Accelerator is logically executed across 3 sequential sections.
