@@ -9,6 +9,7 @@ sort: 10
 |Main     |Complete Repo Key         | Section logic, flow etc         | Open         |
 |Main     | Add Project execution guide        | RACI, execution flow etc         | Open        |
 |Main     | Review and improve links between sections        |          | Open        |
+|Main     | Fix embed image rendering in Github Docs view        |          | Open        |
 |Design     | Add DevOps Overview        |         | Completed        |
 |Design     | Update MLOps Ref Op Model        |         |  Open       |
 |Design     | Update Roles to skills map        |         |   Open      |
