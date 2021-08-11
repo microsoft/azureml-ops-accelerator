@@ -1,7 +1,7 @@
 ---
 sort: 2
 ---
-# Edge Deployment Technology Choice
+# Edge Deployment Technology Selection Criteria
 
 1. Use Case – Why Edge?:
     * Custom model deployments v. End to end solution, e.g.: Instore security – Verkada etc. 
