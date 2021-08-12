@@ -36,7 +36,7 @@ DevOps teams plan with agility and visibility.
 
 The develop phase includes all aspects of coding - writing, 
 testing, reviewing, and the integration of code by team members—as well as building that code into build 
-artifacts that can be deployed into various environments. Teams use version control(develop/git/what-is-version-control.md), usually Git, to
+artifacts that can be deployed into various environments. Teams use version control, usually Git, to
 collaborate on code and work in parallel. They also seek to innovate rapidly without
 sacrificing quality, stability, and productivity. To do that, they use highly productive tools, automate 
 mundane and manual steps, and iterate in small increments through 
