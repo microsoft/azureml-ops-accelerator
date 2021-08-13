@@ -1,4 +1,4 @@
 ---
-sort: 1
+sort: 3
 ---
 # Azure MLOps Best Practices
