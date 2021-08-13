@@ -22,4 +22,4 @@ sort: 2
     * Infrastructure is custom or MS edge offerings like Stack Edge, Stack Hub, HCI
     * Custom hardware like Percept
 6. Support for specific model frameworks:
-    * Intel LVA? Vino? 
+    * Intel LVA? Nvidia Triton? Onnx? etc. 
