@@ -11,7 +11,7 @@ This means the ML Ops framework you implement has a considered, practical respon
 
 1. People:
     * Should we implement ML Ops to be centralised or a federated across business units and roles? 
-    * What skills do I need to operate ML Ops? Do we need to create and recruit for additional roles?  
+    * What skills do we need to operate ML Ops? Do we need to create and recruit for additional roles?  
     * ...
 2. Process:
     * How should a data scientist create a new project that includes all the necessary inclusions to onboard to MLOps
@@ -19,11 +19,11 @@ This means the ML Ops framework you implement has a considered, practical respon
     * What role does the data science team play with respect to the Cloud ops team to productionise a model? 
     * ...
 3. Technology:
-    * How many Azure ML Environments do I need?
-    * How do we select the right compute types for my workloads?
+    * How many Azure ML Environments do we need?
+    * How do we select the right compute types for our workloads?
     * ....
 
-Question is - where do I get started, how do I go about implementing ML Ops using tried and tested techniques to accelerate progress without having to discover details to the above from scratch?
+Question is - where do we get started, how do we go about implementing ML Ops using tried and tested techniques to accelerate progress without having to discover details to the above from scratch?
 
 This repo hence aims to present a documented approach that enables you to go from zero to a reference baseline implementation drawing on our delivery experience with actual customers. To achieve this, we aim to bring together the plethora of documentation, architecture design guides, IaaC and code artefacts across the Microsoft open source references in a cohesive manner that can be used to accelerate a scoped implementation project.
 
