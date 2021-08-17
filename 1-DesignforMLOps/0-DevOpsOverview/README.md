@@ -22,7 +22,7 @@ DevOps influences the application lifecycle throughout its
 the phases are not role-specific. In a true DevOps culture, each role is involved in each phase to some 
 extent.
 
-![The DevOps lifecycle](./_img/devops-lifecycle.png)
+<img src="{{ site.baseurl }}/_img/devops-lifecycle.png">
 
 ### Plan
 
