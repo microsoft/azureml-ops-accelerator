@@ -22,7 +22,7 @@ DevOps influences the application lifecycle throughout its
 the phases are not role-specific. In a true DevOps culture, each role is involved in each phase to some 
 extent.
 
-<img src="{{ site.baseurl }}/_img/devops-lifecycle.png">
+![DevopsLifeCycle](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/devops-lifecycle.png)
 
 ### Plan
 
