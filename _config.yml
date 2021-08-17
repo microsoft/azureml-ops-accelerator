@@ -23,3 +23,5 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  
+baseurl: https://microsoft.github.io/
