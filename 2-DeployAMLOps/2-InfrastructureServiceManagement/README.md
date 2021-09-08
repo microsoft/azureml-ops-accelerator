@@ -2,4 +2,4 @@
 sort: 2
 ---
 # Infrastructure Service Management
-Relevant WAF references
+Relevant WAF references and assessments

@@ -1,4 +1,4 @@
 ---
 sort: 1
 ---
-# Operating Model
+# Skills, Roles & Responsibilities
