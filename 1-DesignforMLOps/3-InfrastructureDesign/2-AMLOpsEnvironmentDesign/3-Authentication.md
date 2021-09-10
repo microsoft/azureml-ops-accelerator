@@ -1,5 +1,5 @@
 ---
-sort: 1
+sort: 3
 ---
 
 # Set up authentication for Azure Machine Learning resources and workflows

@@ -1,5 +1,5 @@
 ---
-sort: 3
+sort: 2
 ---
 # Enterprise security and governance for Azure Machine Learning
 **Source:**[Enterprise security and governance for Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-enterprise-security)

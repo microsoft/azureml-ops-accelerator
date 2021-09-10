@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 1
 ---
 # AML Workspace Design Guide
 **Source:**[Organize and set up Azure Machine Learning environments](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/ai-machine-learning-resource-organization)

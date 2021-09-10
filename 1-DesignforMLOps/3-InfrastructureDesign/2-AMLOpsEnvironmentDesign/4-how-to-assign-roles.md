@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 4
 ---
 # # Manage access to an Azure Machine Learning workspace
 **Source:**[# Manage access to an Azure Machine Learning workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-assign-roles)
