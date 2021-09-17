@@ -17,7 +17,7 @@ The best organizational alignment depends on the structure of the team and how l
 * Data scientist
 * ML engineer
 
-<p align ="center"><img src="DSTeamRoles.png"></p>
+<p align ="center"><img src="DSTeamRoles.png" alt="Data Science Team Roles" /></p>
 
 Each phase of the process is made up of multiple sequential tasks. For instance the Data Development phase is about ingesting data from the Data Source(s), preprocessing this data to prepare the data set, extracting relevant features (feature engineering) from the data set, calculating new features (augmenting data) from the data set, move the curated data set to a data store where data scientists have access and permissions to do experimentation and last but not least track the lineage/versions of the data set.
 
@@ -36,7 +36,7 @@ The end outputs are actionable insights, dashboards, and reports of business met
 Data development is the phase where data is being prepared, transformed, cleaned, augmented, made available in multiple layers and set up for being monitored. Data usually comes from external sources in the raw layer, here indicated as bronze. From here data is moved to the silver layer. 
 In the silver layer, PII data has been removed, the right governance has been applied and a data profile has been created for the development and test environment. 
 
-<p align ="center"><img src="DSPhases.png"></p>
+<p align ="center"><img src="DSPhases.png" alt="Data Science Phases" /></p>
 
 Below these are steps found in data collection and data preprocessing.
 
@@ -65,7 +65,7 @@ Data delivers the crucial foundations for Machine learning. Once we have good tr
 
 Model development is an iterative process, in which many models are derived, tested and built upon until a model fitting the desired criteria is built. In this phase, tools like Automated ML are leveraged to accelerate the time it takes to get production-ready ML models
 
-<p align ="center"><img src="modellingroles.png"></p>
+<p align ="center"><img src="modellingroles.png"  alt="Model Development Roles" /></p>
 
 Below these are steps found in model development:
 
@@ -79,11 +79,11 @@ These metrices such as precision, recall, accuracy, mean average precision or an
 **Production Deployment**
 Production is the end stage fully focused on automation and monitoring; this process allows for scaling out efficiently without having to hire more people to do more work. If done right, this is also the stage where all the work focused on standardization is paying out. Ideally after this stage a project would consist of three separate pipelines: data pipeline, machine learning pipeline and a DevOps pipeline for infrastructure (Infrastructure-As-Code). Separating it in three pipelines allows for easier debugging, focusing on what the different roles are great at and allowing for more flexibility to also integrate with other tooling.
 
-<p align ="center"><img src="prodpipelines.png"></p>
+<p align ="center"><img src="prodpipelines.png" alt="Production Pipelines" /></p>
 
 Going one step deeper, the DevOps pipeline would have the following components:
 
-<p align ="center"><img src="prodroles_responsibilities.png"></p>
+<p align ="center"><img src="prodroles_responsibilities.png"  alt="Production Roles and Reponsibilities" /></p>
 
 Below these are steps found in production deployment:
 
@@ -95,7 +95,7 @@ Below these are steps found in production deployment:
 
 **Business analysis**
 
-<p align ="center"><img src="businessanalysis.png"></p>
+<p align ="center"><img src="businessanalysis.png"  alt="Business Analysis" /></p>
 
 Below these are steps found within Business Analysis:
 
