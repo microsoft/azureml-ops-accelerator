@@ -32,6 +32,7 @@ The lifecycle outlines the major stages that projects typically execute, often i
 
 <p align ="center"><img src="_img/DSLifecycle.png">
 
+
 TDSP contains several guidelines and recommendations to assist the Data Science Process:
 
 **1. Standardized project structure**

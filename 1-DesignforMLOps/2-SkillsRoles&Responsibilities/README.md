@@ -42,6 +42,7 @@ Core responsibilities of the Data Engineer:
 **Data scientist**
 
 Microsoft classifies several distinct categories of data scientist roles: which range from code-first data scientist to more business orientated data scientist/domain expert.
+
 <p align ="center"><img src="_img/DSTypes.png">
 
 1. Professional data scientist

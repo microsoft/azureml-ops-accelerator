@@ -19,6 +19,7 @@ The best organizational alignment depends on the structure of the team and how l
 
 <p align ="center"><img src="_img/DSTeamRoles.png">
 
+
 Each phase of the process is made up of multiple sequential tasks. For instance the Data Development phase is about ingesting data from the Data Source(s), preprocessing this data to prepare the data set, extracting relevant features (feature engineering) from the data set, calculating new features (augmenting data) from the data set, move the curated data set to a data store where data scientists have access and permissions to do experimentation and last but not least track the lineage/versions of the data set.
 
 In the following sections we will describe the different tasks executed within each phase, how tasks stitch together and where the different roles (ML engineers, data engineers, Citizen data scientists and professional data scientists) should work together to carry out these tasks and when they should handover them.
@@ -36,7 +37,9 @@ The end outputs are actionable insights, dashboards, and reports of business met
 Data development is the phase where data is being prepared, transformed, cleaned, augmented, made available in multiple layers and set up for being monitored. Data usually comes from external sources in the raw layer, here indicated as bronze. From here data is moved to the silver layer. 
 In the silver layer, PII data has been removed, the right governance has been applied and a data profile has been created for the development and test environment. 
 
+
 <p align ="center"><img src="_img/DSPhases.png">
+
 
 Below these are steps found in data collection and data preprocessing.
 
@@ -65,7 +68,9 @@ Data delivers the crucial foundations for Machine learning. Once we have good tr
 
 Model development is an iterative process, in which many models are derived, tested and built upon until a model fitting the desired criteria is built. In this phase, tools like Automated ML are leveraged to accelerate the time it takes to get production-ready ML models
 
+
 <p align ="center"><img src="_img/modellingroles.png">
+
 
 Below these are steps found in model development:
 
@@ -81,8 +86,11 @@ Production is the end stage fully focused on automation and monitoring; this pro
 
 <p align ="center"><img src="_img/prodpipelines.png">
 
+
 Going one step deeper, the DevOps pipeline would have the following components:
+
 <p align ="center"><img src="_img/prodroles_responsibilities.png">
+
 
 Below these are steps found in production deployment:
 
@@ -93,7 +101,9 @@ Below these are steps found in production deployment:
 * **Set monitor and logging for drift, performance, and security:** concept drift is the change in the relationship between input and output data over time inevitably leading to model performance degradation. It is one of the top reasons model accuracy degrades over time, thus monitoring drift helps detect model performance issues. Infrastructure performance can cause delays and can be a security breach indication. Logging for reproducibility consists of understanding what leads to a model artifact, and what data is used as input for the model.
 
 **Business analysis**
+
 <p align ="center"><img src="_img/businessanalysis.png">
+
 Below these are steps found within Business Analysis:
 
 * **Model visualization:** Visualizing data and model outcomes for model understanding.
