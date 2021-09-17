@@ -1,7 +1,7 @@
 ---
 sort: 0
 ---
-# Introduction to the Azure ML-Ops Accelerator
+# Introduction to the Azure ML-Ops Project Accelerator
 
 Your org has been maturing its data platform implemented on Azure using a combination of services like Data Factory, Datalake storage, Databricks, Synapse and Power BI delivering a modern analytics and BI experience to your business. Now you've decided to embark on your journey to grow the ML-Ops maturity in your org to embed AI to transform your business. You've made the decision to  implement a cloud scale architecture backed by Azure ML. 
 
