@@ -16,7 +16,7 @@ Typical activities of a center of excellence would include:
 * Collating training material
 * Publishing example templates
 * Publishing a regular newsletter, blogs
-* Community calls, technology briefings 
+* Community calls, technology briefings
 
 A strong and vibrant AI community can greatly accelerate the adoption of Enterprise AI practices within an organisation.
 
