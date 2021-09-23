@@ -9,7 +9,7 @@ in the production environment. It picks up after a successful
 [delivery](3-Delivery.md) and encompasses everything the team 
 needs to consider for maintaining, monitoring, and troubleshooting the application.
 
-![The DevOps lifecycle](_img/devops-lifecycle.png)
+![The DevOps lifecycle](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/devops-lifecycle.png)
 
 ## Managing release exposure
 
