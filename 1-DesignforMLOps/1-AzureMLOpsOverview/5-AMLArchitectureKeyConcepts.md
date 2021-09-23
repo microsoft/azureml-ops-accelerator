@@ -11,7 +11,7 @@ Learn about the architecture and concepts for [Azure Machine Learning](overview-
 
 A [machine learning workspace](https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace) is the top-level resource for Azure Machine Learning.
 
-![AMLWorkspace](_img/architecture.svg)
+![AMLWorkspace](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/1-AzureMLOpsOverview/_img/architecture.svg)
 
 The workspace is the centralized place to:
 
@@ -140,7 +140,7 @@ Because Machine Learning Compute is a managed compute target (that is, it's mana
 
 * After the run completes, you can query runs and metrics. In the flow diagram below, this step occurs when the training compute target writes the run metrics back to Azure Machine Learning from storage in the Cosmos DB database. Clients can call Azure Machine Learning. Machine Learning will in turn pull metrics from the Cosmos DB database and return them back to the client.
 
-![Training workflow](_img/training-and-metrics.png)
+![Training workflow](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/1-AzureMLOpsOverview/_img/training-and-metrics.png)
 
 ## Models
 
@@ -203,7 +203,7 @@ Here are the details:
 * Scoring request details are stored in Application Insights, which is in the user's subscription.
 * Telemetry is also pushed to the Microsoft/Azure subscription.
 
-![Inference workflow](_img/inferencing.png)
+![Inference workflow](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/1-AzureMLOpsOverview/_img/inferencing.png)
 
 
 For an example of deploying a model as a web service, see [Deploy an image classification model in Azure Container Instances](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-deploy-models-with-aml).
