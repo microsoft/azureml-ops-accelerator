@@ -5,7 +5,7 @@ sort: 12
 
 **Source**: [What is Monitoring?](https://docs.microsoft.com/en-us/devops/operate/what-is-monitoring)
 
-![Monitoring surfaces production data in real time](_img/Monitoring_600x300.png)
+![Monitoring surfaces production data in real time](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/Monitoring_600x300.png)
 
 Monitoring provides feedback from production. Monitoring delivers information about an application's 
 performance and usage patterns.
