@@ -10,8 +10,8 @@ This guide helps users to measure and tune parameters in term of performance whe
 1. Choose mini batch size.
 1. Check performance metrics.
 
->[!NOTE]
->Note that we're continuously improving log and metrics. The content here may not match the actual prod exactly at arbitrary time. We'll align them with on-going releases.
+> **NOTE: **
+> We're continuously improving log and metrics. The content here may not match the actual prod exactly at arbitrary time. We'll align them with on-going releases.
 
 ## How to Choose Compute Target
 
@@ -22,7 +22,7 @@ Here are the quick steps for choosing compute target. For the concept of compute
 1. Choose `Dedicated` or `Low priority`. For dev purpose, you can always use a few Dedicated virtual machines to ensure you can have a quick response.
 1. Minimum number of nodes that you want to provision. If you want a number of dedicated  nodes, set that count here. For dev purpose, keep the nodes in provisioned state can save the time of provisioning when start a job.
 
-![New Compute Cluster](_img/new-compute-cluster.png)
+![New Compute Cluster](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/new-compute-cluster.png)
 
 ## How To Choose Node Count
 
@@ -73,7 +73,7 @@ It has scheduling progress, mini batch processing progress and file concatenatin
 `logs/sys/job_report/processed_mini-batches.csv` (`logs/sys/report/processed_tasks.csv` in previous versions).
 This file includes the durations for calling entry script methods and the methods themselves.
 
-![Mini batch processing metrics](_img/processed-mini-batches.png)
+![Mini batch processing metrics](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/processed-mini-batches.png)
 
 ### Columns of the table
 Column Name       | Note
@@ -109,7 +109,7 @@ Assume E2 has value "2020-10-24T02:59:04.227237", the formulas can be:
 
 Below is a pivot table shows the number of processed mini batches over time and node. `StartSecond` is converted from `Start Time` using above formula. In this table you can drill down and up to the granularity you care.
 
-![Processed mini batches over time and node](_img/processed-mini-batches-over-time-node.png)
+![Processed mini batches over time and node](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/processed-mini-batches-over-time-node.png)
 
 Assume the durations of processing a mini batch among all the mini batches are similar, the count over time and node should be similar.
 1. If the count decreases over time, there is a performance degradation. This may come from run() method itself or the piling up of external storage accessing.
@@ -134,21 +134,21 @@ The performance report is located in `logs/sys/perf/`. It consists of resource u
 
 - `node_resource_usage.csv`: This file provides an overview of resource usage of a node.
 
-![Node Resource Usage](_img/node-resource-usage.png)
+![Node Resource Usage](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-resource-usage.png)
 
 
 - `node_disk_usage.csv`: This file provides detailed disk usage of a node.
 
-![Node Disk Usage](_img/node-disk-usage.png)
+![Node Disk Usage](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-disk-usage.png)
 
 
 - `processes_resource_usage.csv`: This file provides an overview of resource usage of each worker process in a node.
 
-![Process Resource Usage](_img/process-resource-usage.png)
+![Process Resource Usage](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/process-resource-usage.png)
 
 
 ### Node resource usage
-![Node resource usage](_img/node-resource-usage.png)
+![Node resource usage](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-resource-usage.png)
 
 ### Columns of the table
 Column Name       | Note
@@ -175,11 +175,11 @@ The internal scripts of ParallelRunStep requires minor CPU and memory. In common
 The monitor dumps CPU and memory usage every minute, grouped by hour. The folder is `logs/sys/perf/<node>/processes_cpu_memory_usage/`
 
 CPU Memory Usage Sorted by CPU Usage Percent Descending
-![Storage Metrics](_img/node-cpu-usage-all-processes.png)
+![Storage Metrics](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-cpu-usage-all-processes.png)
 
 
 CPU Memory Usage Sorted by Memory Usage Percent Descending
-![Storage Metrics](_img/node-memory-usage-all-processes.png)
+![Storage Metrics](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-memory-usage-all-processes.png)
 
 ### Network
 ParallelRunStep requires a lot of network I/O operation to support dataset processing, mini-batch scheduling and processing. Bandwidth and latency are the primary concerns of network.
@@ -198,7 +198,7 @@ Dataset limit link to Dataset doc
 1. Click Metrics or Metrics (classic) on the left.
 1. Add the metrics you want to observe.
 
-![Storage Metrics](_img/storage-metrics.png)
+![Storage Metrics](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/storage-metrics.png)
 
 ## Mini batch scheduling performance
 
@@ -206,7 +206,7 @@ Generally, scheduling performance in Parallel Run Step is good enough for scalin
 
 To make good use of all nodes, ensure:
 
-![Mini batch processing metrics](_img/node-count-formula1.png)
+![Mini batch processing metrics](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-count-formula1.png)
 
 task_created_per_second: by average, it will schedule 400 mini batches per second. This is a constant unless there is any storage issue or connectivity issue.
 E.g, 10 seconds per mini batch, a task producer can serve about 4000 agents (processes). If process_count_per_node = 4, node_count can be 1000 to achieve max throughput.
@@ -214,7 +214,7 @@ E.g, 10 seconds per mini batch, a task producer can serve about 4000 agents (pro
 So far, AmlCompute support up to 100 nodes for non-ParallelTask mode.
 Task_overhead_time is ~0.05 second/task. This is from it took 2hours to process 1m tasks with 8 processes. Overhead = 7200 seconds * 8 / 1m
 
-![Mini batch processing metrics](_img/node-count-formula2.png)
+![Mini batch processing metrics](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/node-count-formula2.png)
 
 A reasonable mini_batch_size is to keep the mini batch take 10+ seconds
 This will keep the overhead below 0.5%.
@@ -276,7 +276,7 @@ The generated profile file will be saved in logs/sys/.
 Check [The Python Profilers](https://docs.python.org/3/library/profile.html#the-python-profilers) for more details.
 
 You can download them and inspect with viewers, such as [profile-viewer](https://pypi.org/project/profile-viewer/). Here is a sample:
-![Profile Viewer](_img/profile-viewer.png)
+![Profile Viewer](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/profile-viewer.png)
 
 
 ## FAQ on Performance Issues
@@ -301,7 +301,7 @@ Understand ParallelRunStep
 Tune PRS parameters
 Tune nodes
 
-![Overall Architecture](_img/architecture.png)
+![Overall Architecture](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/3-MigrateOperateAMLOps/3-BestPracticesGuide/_img/architecture.png)
 
 
 
