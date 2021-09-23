@@ -4,7 +4,7 @@ sort: 7
 # What is Continuous Integration?
 **Source**: [What is Continuous Integration?](https://docs.microsoft.com/en-us/devops/develop/what-is-continuous-integration)
 
-![Continuous Integration Build sequence showing pass/fail and time](_img/ContinuousIntegration_600x300.png)
+![Continuous Integration Build sequence showing pass/fail and time](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/ContinuousIntegration_600x300.png)
 
 Continuous Integration (CI) is the process of automating the build and testing of code every time a team
 member commits changes to [version control](https://docs.microsoft.com/en-us/devops/develop/git/what-is-version-control). CI encourages developers to
