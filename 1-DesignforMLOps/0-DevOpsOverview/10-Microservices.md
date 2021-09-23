@@ -5,7 +5,7 @@ sort: 11
 
 **Source**: [What are Microservices?](https://docs.microsoft.com/en-us/devops/deliver/what-are-microservices)
 
-![microservices\_600x300](_img/Microservices_600x300-1.png)
+![microservices\_600x300](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/Microservices_600x300-1.png)
 
 _Microservices_ describes the architectural pattern of composing a distributed application from separately
 deployable services that perform specific business functions and communicate over web interfaces. DevOps
