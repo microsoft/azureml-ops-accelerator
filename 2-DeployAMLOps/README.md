@@ -5,4 +5,4 @@ sort: 2
 
 Infrastructure Deployment
 
-This section provides design patterns, technology choice considerations and reference implementation templates for MLOps.
+This section provides reference implementation templates (ARM, Terraform etc) for infrastructure provisioning for ML Ops with AML 
