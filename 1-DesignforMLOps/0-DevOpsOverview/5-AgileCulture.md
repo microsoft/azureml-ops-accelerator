@@ -14,7 +14,7 @@ software. It's not about a perfect daily standup or retrospective. Instead, it's
 where the right thing happens more often than not. Activities like standups and retrospectives have their 
 place, but they won't change an organization's culture.
 
-![Agile culture](_img/agile-culture.png)
+![Agile culture](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/agile-culture.png)
 
 This article details foundational elements that every organization needs to create an Agile mindset and 
 culture. They should not be followed blindly, but rather apply what makes sense in a given environment.

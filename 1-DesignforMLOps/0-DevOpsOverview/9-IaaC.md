@@ -5,7 +5,7 @@ sort: 10
 
 **Source**: [What is Infrastructure as Code](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
 
-![Infrastructure as code defines the environment in a versioned file](_img/InfrastructureAsCode_600x300-3.png)
+![Infrastructure as code defines the environment in a versioned file](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/InfrastructureAsCode_600x300-3.png)
 
 Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load 
 balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses 

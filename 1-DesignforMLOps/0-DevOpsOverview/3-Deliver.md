@@ -10,7 +10,7 @@ pipeline to the production environment. It picks up at or after the
 of test environments before reaching end users. Along the way its quality is tested across a variety of 
 measures that include functionality, scale, and security.
 
-![The DevOps lifecycle](_img/devops-lifecycle.png)
+![The DevOps lifecycle](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/devops-lifecycle.png)
 
 ## Employing continuous delivery
 

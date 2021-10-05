@@ -10,7 +10,7 @@ produces software artifacts that express the updated functionality. This require
 used to write code, such as Visual Studio, but also supporting services like version control, issue
 management, and automated testing. 
 
-![The DevOps lifecycle](_img/devops-lifecycle.png)
+![The DevOps lifecycle](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/devops-lifecycle.png)
 
 ## Selecting a development environment
 

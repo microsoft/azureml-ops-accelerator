@@ -4,7 +4,7 @@ sort: 8
 # What is Continuous Delivery?
 **Source**: [What is Continuous Delivery?](https://docs.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery)
 
-![Continuous Delivery Automates the Flow to Production](_img/ContinuousDelivery_600x300.png)
+![Continuous Delivery Automates the Flow to Production](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/ContinuousDelivery_600x300.png)
 
 Continuous Delivery (CD) is the process to build, test, configure, and deploy from a build to a production
 environment. Multiple testing or staging environments create a _Release Pipeline_ to automate the creation

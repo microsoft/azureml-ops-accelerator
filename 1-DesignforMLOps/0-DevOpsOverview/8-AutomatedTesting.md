@@ -41,7 +41,7 @@ their dependencies and time to run.
 There are several important principles that DevOps teams should adhere to in the implementation of any
 quality vision.
 
-![Sample quality vision](_img/shift-left-quality-vision.png)
+![Sample quality vision](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/shift-left-quality-vision.png)
 
 ### Tests should be written at the lowest level possible
     
@@ -109,7 +109,7 @@ and process improvements, this both reduces the time it takes for tests to be ru
 failures later on. Most importantly, it ensures that most of the testing is completed even before a change
 is merged into `main`.
 
-![Shift left](_img/shift-left.png)
+![Shift left](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/shift-left.png)
 
 ## Selling the vision to the team
 
@@ -123,7 +123,7 @@ this time will be different. It might seem like a lot of work, so is management 
 vision? There may be open debates between those who are skeptical and those who are passionate about the
 new direction.
 
-![Selling the vision](_img/selling-the-vision.png)
+![Selling the vision](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/selling-the-vision.png)
 
 Be pragmatic and focused on building momentum. For example, it may be necessary to hold firm with a team
 that pushes back when working with new code or existing code that can be cleanly refactored. On the other
@@ -162,7 +162,7 @@ seconds. One team at Microsoft runs over 60,000 unit tests in parallel in less t
 of getting this down to less than a minute. Track unit test execution time using charts like below and
 file bugs against tests that exceed the allowed thresholds.
 
-![continuous focus on test execution time](_img/unit-test-characteristics.png)
+![continuous focus on test execution time](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/unit-test-characteristics.png)
 
 ## Functional tests must be independent
 
@@ -188,7 +188,7 @@ They started at 27K legacy tests (in orange) in sprint 78. The legacy tests are 
 old functional tests were replaced with a set of unit tests (L0/L1s). Some were replaced with the new L2 
 tests. Many were simply deleted.
 
-![Sample test portfolio balance](_img/shift-left-test-portfolio-balance.png)
+![Sample test portfolio balance](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/shift-left-test-portfolio-balance.png)
 
 ### The process
 
@@ -227,14 +227,14 @@ is about 22 minutes. The first quality signal from CI (SelfTest) is about an hou
 product is tested with the proposed change. Within 2 hours (Merge to SelfHost), the entire product is
 tested and the change is ready to go into production.
 
-![PR and Rolling CI pipeline in action](_img/pr-and-rolling-ci-pipeline.png)
+![PR and Rolling CI pipeline in action](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/pr-and-rolling-ci-pipeline.png)
 
 ### DevOps metrics in use
 
 The team tracks a scorecard like the one shown below. At a high level, it tracks two types of metrics:
 live site and engineering health (or debt), and engineering velocity.
 
-![What we track](_img/what-we-track.png)
+![What we track](https://raw.githubusercontent.com/microsoft/azureml-ops-accelerator/main/1-DesignforMLOps/0-DevOpsOverview/_img/what-we-track.png)
 
 In case of live site, the team is interested in the time to detect, time to mitigate, and how many repair
 items a team is carrying. A repair item is the work the team identifies as part of live site retrospective
