@@ -4,7 +4,7 @@ sort: 2
 # Edge Deployment Technology Selection Criteria
 
 1. Use Case – Why Edge?:
-    * Custom model deployments v. End to end solution, e.g.: Instore security – Verkada etc. 
+    * Custom model deployments v. End to end solution, e.g.: Instore security, OH&S Systems etc. 
     * Faster inferencing – closer to source?
     * Data residency? 
     * Model should be able to run if connection to Azure is lost?
