@@ -1,5 +1,5 @@
 ---
-sort: 0
+sort: 1
 ---
 # Project Accelerator Stages
 
