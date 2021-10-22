@@ -11,10 +11,10 @@ This Project Accelerator is logically executed across 4 sequential sections.
         * Culture
         * CI/CD
         * What is Infrastructure as Code
-            * ML Ops Overview: 
-            * ML Ops v. Dev Ops 
-            * Key Principles and Maturity Model
-            * Skills Roles and Responsibilities
+    * ML Ops Overview: 
+        * ML Ops v. Dev Ops 
+        * Key Principles and Maturity Model
+        * Skills Roles and Responsibilities
 
 2. Design for ML Ops with AML: Infrastructure + Service Management Design, such as:
     * AML Foundations:
