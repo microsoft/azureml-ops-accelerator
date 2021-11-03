@@ -1,6 +1,0 @@
-[submodule "2-DeployAMLOps/1-ImplementationTemplates/2-Terraform"]
-	path = 2-DeployAMLOps/1-ImplementationTemplates/2-Terraform
-	url = https://github.com/microsoft/azureml-terraform-examples
-[submodule "3-MigrateOperateAMLOps/1-MigrationTemplate"]
-	path = 3-MigrateOperateAMLOps/1-MigrationTemplate
-	url = https://github.com/microsoft/aml-acceleration-template
