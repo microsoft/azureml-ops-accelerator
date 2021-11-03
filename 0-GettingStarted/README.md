@@ -14,11 +14,12 @@ The required content is hence spread across the four key areas below:
 4. Migrate/ Operate: A reference implementation of ML Ops using AML that can be used to move your existing models
 
 To use this accelerator:
-1) Go to the source [Git Repository](https://github.com/microsoft/azureml-ops-accelerator) 
-2) Click on "Use this template"
+1. Go to the source [Git Repository](https://github.com/microsoft/azureml-ops-accelerator) 
+2. Click on "Use this template"
 <p align ="center"><img src="usethistemplate.png" alt="Use this template" /></p>
-3) Review your new Github Docs reference link to start consuming the accelerators content, and customising it to reflect the specifics of your project, Azure infrastructure needs and Data Science, DevOps processes. This repositories sample Github Docs experience [can be viewed at here.](https://microsoft.github.io/azureml-ops-accelerator/)
-4) Start at the Getting Started Section as it walks you through a step by step approach to project execution and assigns the relevant project roles and skills to each stage. 
+
+3. Review your new Github Docs reference link to start consuming the accelerators content, and customising it to reflect the specifics of your project, Azure infrastructure needs and Data Science, DevOps processes. This repositories sample Github Docs experience [can be viewed at here.](https://microsoft.github.io/azureml-ops-accelerator/)
+4. Start at the Getting Started Section as it walks you through a step by step approach to project execution and assigns the relevant project roles and skills to each stage. 
 <p align ="center"><img src="GettingStarted.png" alt="Getting Started" /></p>
 
 **Cloning this Project**
