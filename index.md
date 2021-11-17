@@ -34,5 +34,6 @@ ML Ops by its very nature has many different alternatives to implementation acro
 1. Aims to mature from Stage 0 to partial automation required to get to [Stage 2 or 3 of the MLOps maturity curve](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-maturity-model)  
 2. Can be adapted with minimal refactoring to address a wide range of common scenarios, rather than be highly prescriptive and limit its reach.
 3. Provides about 80% of the material that can be reused to accelerate an implementation project that for this scope above is expected to take between 10-12 weeks.  
+4. Prioritises support for Python based ML where relevant. Azure ML continues to mature its support for R, and most code artefacts included here can be adapted to support R based models, however this is not considered in focus for the development of this accelerator.
 
 [Link to Source Repo](https://github.com/microsoft/azureml-ops-accelerator)
