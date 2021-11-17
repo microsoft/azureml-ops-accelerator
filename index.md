@@ -25,7 +25,9 @@ This means the ML Ops framework you implement has a considered, practical respon
 
 Question is - where do we get started, how do we go about implementing ML Ops using tried and tested techniques to accelerate progress without having to discover details to the above from scratch?
 
-This repo hence aims to present a documented approach that enables you to go from zero to a reference baseline implementation drawing on our delivery experience with actual customers. To achieve this, we aim to bring together the plethora of documentation, architecture design guides, IaaC and code artefacts across the Microsoft open source references in a cohesive manner that can be used to accelerate a scoped implementation project.
+This repo hence aims to present a documented approach that enables you to go from zero to a reference baseline implementation drawing on our delivery experience with actual customers. This is achieved by bringing together a range of documentation, architecture design guides, IaaC templates and code acceleration artefacts from Microsoft and open source references, together as a packaged deliverable aligned to logical project stages as below. The motivation for reuse of existing artfacts (v. building from scratch), is to leverage the best of IP that exists across the ecosystem. Moreover, as the product evolves, SDK's are updated etc, this repo attempts to use [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) as a method to stay updated and point to the latest available references that can be applied to implementation projects. 
+
+![AMLOpsAcceleratorSources](AMLOpsAcceleratorSources.png)
 
 ### Considerations
 
