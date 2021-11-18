@@ -5,10 +5,11 @@ sort: 2
 
 A good Data Science process requires clear definition of the roles and the responsibilities for each role. A single person may play more than one roles (e.g. the DevOps Engineer and MLOps Engineer roles) or there may be more than one person working on a role. The distribution of responsibilities across roles will be dependant on the skills of the individuals in the team, therefore the roles and responsibilities are likely to evolve over time, especially as the team gets mature in MLOps practices.Additionally, implementing this project also requires supporting roles with skills in Azure infrastructure architecture and administration - essentially the pool of IT skills and resources required to stand up the platform to an enterprise standard. 
 
-There is no value realised from a data scientist having to get involved in the depths of Azure networking, or an Azure infrastructure administrator having to be understand the specifics of ML Ops. Hence this project accelerator then attempts to align these skills and roles to the relevant project stages and content to simplify the adoption journey for ML Ops on Azure. 
+There is no value realised from a data scientist having to get involved in the depths of Azure networking, or an Azure infrastructure administrator having to be understand the specifics of ML Ops specifically to implement the platform. Hence this project accelerator then attempts to align these skills and roles to the relevant project stages and content to simplify the adoption journey for ML Ops on Azure. 
 
 A reference set of key roles and responsibilities are below. A subset of these roles, specifically those relevant to project management tasks might only exist for the duration of this specific project, while the others remain relevant to the continued operation and evolution of the ML Ops practice in your organisation. In principle, the titles are less relevant as to having clear accountablities and skills required to meet the responsibilities outlined below.
 
+**Key Business Leads:**
 * **Group Manager:** 
     * Ownership of the MLOps process
     * Create group account on a code hosting platform
@@ -21,13 +22,14 @@ A reference set of key roles and responsibilities are below. A subset of these r
 * **Project Lead:**
     * Provision team project in the code hosting and development platforms (e.g. Azure DevOps, Github, Azure ML)
     * Key technical decisions on use of frameworks, libraries etc.
-* **Solution Architect:**
-    * Technical architecture
-    * Technical advice and guidance throughout the project
-* **Azure Infrastructure Engineer/ Administrator:**
-    * Deploy and configure relevant Azure services in line with the designed architecture and integrate with existing Azure footprint
-    * Represent IT to assist with integrations with on prem workloads, such as network integrations with on prem edge devices
-    * Implement Well Architected standards such as cost management and policy based governance
+* **Product Owner / Business Analyst:**
+    * Define business use case
+    * Liaise with business and provide subject matter expertise
+    * User stories
+    * Prioritization
+    * Project success criteria
+
+**Data Science, ML and Developer Roles:**
 * **Data Engineer:** 
     * Fetch data from source system(s)
     * Cleanse data
@@ -58,12 +60,17 @@ A reference set of key roles and responsibilities are below. A subset of these r
 * **Tester:**
     * Automated Testing via the model endpoint
     * Integration testing
-* **Product Owner / Business Analyst:**
-    * Define business use case
-    * Liaise with business and provide subject matter expertise
-    * User stories
-    * Prioritization
-    * Project success criteria
+
+**IT Infrastructure Architect, Platform Adminstration Roles:**
+* **Solution Architect:**
+    * Technical architecture
+    * Technical advice and guidance throughout the project
+* **Azure Infrastructure Engineer/ Administrator:**
+    * Deploy and configure relevant Azure services in line with the designed architecture and integrate with existing Azure footprint
+    * Represent IT to assist with integrations with on prem workloads, such as network integrations with on prem edge devices
+    * Implement Well Architected standards such as cost management and policy based governance
+
+**Project Management Roles:**
 * **Project Manager:**
     * Project timelines
     * Resource allocation

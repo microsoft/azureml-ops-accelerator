@@ -29,5 +29,6 @@ To use this accelerator for a new project:
 **Cloning this Repository**
 
 > This Repository makes use of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to reuse existing code artefacts and templates. If you clone this repo locally, the content in submodule folders don't get automatically copied over. To include these in your local clone, do as below (all steps on your local machine):
+
 > 1) Clone this project: **git clone https://github.com/microsoft/azureml-ops-accelerator.git**
 > 2) Next initiate and update your submodules using **git submodule init** and **git submodule update**
