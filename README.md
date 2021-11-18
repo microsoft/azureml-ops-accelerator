@@ -4,10 +4,10 @@ Guided accelerator consolidating best practice patterns, IaaC and AML code artef
 
 This repo is designed to be consumed 'documentation led', with the relevant IaaC or implementation code artefacts linked at the appropriate sections. Start here: <https://microsoft.github.io/azureml-ops-accelerator/>
 
-**Cloning this Project**
-> This Project makes use of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to reuse existing code artefacts and templates. To include these in your clone, one sequence is as below:
+**Cloning this Repository**
+> This Repository makes use of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to reuse existing code artefacts and templates. If you clone this repo locally, the content in submodule specific folders don't get automatically copied over. To include these in your local clone, do as below (all steps on your local machine):
 > 1) Clone this project: **git clone https://github.com/microsoft/azureml-ops-accelerator.git**
-> 2) Next initiate and update your submodules using **git submodule init** and **git submodule update**   
+> 2) Next initiate and update your submodules using **git submodule init** and **git submodule update**
 
 ## Contributing 
 
