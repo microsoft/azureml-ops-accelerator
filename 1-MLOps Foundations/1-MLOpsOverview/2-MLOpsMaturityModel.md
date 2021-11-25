@@ -1,5 +1,5 @@
 ---
-sort: 15
+sort: 5
 ---
 # MLOps Maturity Model
 

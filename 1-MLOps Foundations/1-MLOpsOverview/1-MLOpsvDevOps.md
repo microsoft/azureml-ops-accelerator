@@ -1,5 +1,5 @@
 ---
-sort: 14
+sort: 4
 ---
 # How is MLOps different from DevOps?
 

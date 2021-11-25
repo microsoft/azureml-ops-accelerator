@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 5
 ---
 # Adopting a data science process framework
 Data Science teams need to adopt some form of common process so that team members can collaborate and share code.  When agreeing on a process the team should consider the following components.

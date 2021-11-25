@@ -1,5 +1,5 @@
 ---
-sort: 3
+sort: 6
 ---
 ## Managing the Data Science Process
 This section will describe our recommendations and best practices for managing an end to end Data Science process. We are going to describe the different phases, their purpose and who is responsible.  If may be helpful to think about the AI process as a team sport, where the different team members have different important roles who need to work together to win the match. Our match is to bring and keep AI-based use cases into production to drive sustainable business value for the enterprise. 

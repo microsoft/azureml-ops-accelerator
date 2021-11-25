@@ -1,5 +1,5 @@
 ---
-sort: 16
+sort: 6
 ---
 # Seven principles for machine learning DevOps
 

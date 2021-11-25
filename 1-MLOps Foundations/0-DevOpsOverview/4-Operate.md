@@ -1,5 +1,5 @@
 ---
-sort: 5
+sort: 6
 ---
 # Introduction to operating reliable systems with DevOps
 **Source**: [Introduction to operating reliable systems with DevOps](https://docs.microsoft.com/en-us/devops/operate/operating-reliable-systems-with-devops)

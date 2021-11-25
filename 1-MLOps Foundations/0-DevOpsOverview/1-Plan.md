@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 3
 ---
 # Introduction to planning efficient workloads with DevOps
 **Source**: [Introduction to planning efficient workloads with DevOps](https://docs.microsoft.com/en-us/devops/plan/planning-efficient-workloads-with-devops)

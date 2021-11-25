@@ -1,5 +1,5 @@
 ---
-sort: 8
+sort: 9
 ---
 # What is Continuous Delivery?
 **Source**: [What is Continuous Delivery?](https://docs.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery)

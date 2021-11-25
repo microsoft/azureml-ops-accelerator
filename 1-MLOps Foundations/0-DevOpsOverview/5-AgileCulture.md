@@ -1,5 +1,5 @@
 ---
-sort: 6
+sort: 7
 ---
 # Adopting an Agile culture
 **Source**: [Adopting an Agile culture](https://docs.microsoft.com/en-us/devops/plan/adopting-agile)

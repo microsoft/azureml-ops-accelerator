@@ -1,5 +1,5 @@
 ---
-sort: 7
+sort: 8
 ---
 # What is Continuous Integration?
 **Source**: [What is Continuous Integration?](https://docs.microsoft.com/en-us/devops/develop/what-is-continuous-integration)

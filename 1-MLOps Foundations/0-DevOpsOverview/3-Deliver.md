@@ -1,5 +1,5 @@
 ---
-sort: 4
+sort: 5
 ---
 # Introduction to delivering quality services with DevOps
 **Source**: [Introduction to delivering quality services with DevOps](https://docs.microsoft.com/en-us/devops/deliver/delivering-quality-services-with-devops)
