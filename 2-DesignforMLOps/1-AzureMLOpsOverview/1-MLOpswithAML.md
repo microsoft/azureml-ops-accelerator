@@ -1,5 +1,5 @@
 ---
-sort: 6
+sort: 2
 ---
 
 # MLOps: Model management, deployment, lineage and monitoring with Azure Machine Learning
