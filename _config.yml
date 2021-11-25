@@ -16,7 +16,7 @@ readme_index:
   with_frontmatter: true
 
 ##Adding include and relative_permalinks: false to try and fix issue of images in subfolders failing to render in github pages
-include: ['1-MLOps Foundations/0-DevOpsOverview/_img']
+include: ['.']
 relative_permalinks: false
 
 exclude:
