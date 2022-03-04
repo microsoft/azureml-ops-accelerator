@@ -101,15 +101,14 @@ For example run configurations, see [Configure a training run](https://docs.micr
 
 When you submit a run, Azure Machine Learning compresses the directory that contains the script as a zip file and sends it to the compute target. The zip file is then extracted, and the script is run there. Azure Machine Learning also stores the zip file as a snapshot as part of the run record. Anyone with access to the workspace can browse a run record and download the snapshot.
 
+> [!NOTE]
+> To prevent unnecessary files from being included in the snapshot, make an ignore file (.gitignore or .amlignore) in the directory. Add the files and directories to exclude to this file. For more information on the syntax to use inside this file, see [syntax and patterns](https://git-scm.com/docs/gitignore) for .gitignore. The .amlignore file uses the same syntax. If both files exist, the .amlignore file is used and the .gitignore file is unused.
+
 ### Logging
 
 Azure Machine Learning automatically logs standard run metrics for you. However, you can also [use the Python SDK to log arbitrary metrics](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-log-view-metrics).
 
 There are multiple ways to view your logs: monitoring run status in real time, or viewing results after completion. For more information, see [Monitor and view ML run logs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-log-view-metrics).
-
-
-> [!NOTE]
-> To prevent unnecessary files from being included in the snapshot, make an ignore file (.gitignore or .amlignore) in the directory. Add the files and directories to exclude to this file. For more information on the syntax to use inside this file, see [syntax and patterns](https://git-scm.com/docs/gitignore) for .gitignore. The .amlignore file uses the same syntax. If both files exist, the .amlignore file is used and the .gitignore file is unused.
 
 ### Git tracking and integration
 
