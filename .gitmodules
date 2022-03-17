@@ -1,6 +1,6 @@
-[submodule "3-DeployAMLOps/1-ImplementationTemplates/2-Terraform"]
-	path = 3-DeployAMLOps/1-ImplementationTemplates/2-Terraform
+[submodule "3-Deploy/azure-machine-learning-terraform"]
+	path = 3-Deploy/azure-machine-learning-terraform
 	url = https://github.com/csiebler/azure-machine-learning-terraform
-[submodule "4-MigrateOperateAMLOps/1-MigrationTemplate"]
-	path = 4-MigrateOperateAMLOps/1-MigrationTemplate
-	url = https://github.com/microsoft/aml-acceleration-template
+[submodule "4-Migrate/dstoolkit-mlops-base"]
+	path = 4-Migrate/dstoolkit-mlops-base
+	url = https://github.com/microsoft/dstoolkit-mlops-base

@@ -1,34 +1,40 @@
 # Azure ML-Ops Project Accelerator
 
-Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide reference IP to a support a baseline MLOps implementation on Azure leveraging Azure ML that can be delivered in approximately 12 weeks of project scope. 
+Guided accelerator consolidating best practice patterns, IaaC and AML code artefacts to provide reference IP to a support a baseline MLOps implementation on Azure leveraging Azure ML that can be delivered in approximately 12 weeks of project scope.
 
-This repo is designed to be consumed 'documentation led', with the relevant IaaC or implementation code artefacts linked at the appropriate sections. Start here: <https://microsoft.github.io/azureml-ops-accelerator/>
+This repo is designed to be consumed 'documentation led', with the relevant IaaC or implementation code artefacts linked at the appropriate sections.
 
-To go directly to understand how to apply this repository to your own Azure ML - Ops implementation project, go here: https://microsoft.github.io/azureml-ops-accelerator/0-GettingStarted/
+Use the Table of Contents below to help you navigate to the section of repo that you are interested in based on your role or the stage of your project.
 
-**Cloning this Repository**
-> This Repository makes use of [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to reuse existing code artefacts and templates. If you clone this repo locally, the content in submodule specific folders don't get automatically copied over. To include these in your local clone, do as below (all steps on your local machine):
-> 1) Clone this project: **git clone https://github.com/microsoft/azureml-ops-accelerator.git**
-> 2) Next initiate and update your submodules using **git submodule init** and **git submodule update**
 
-## Contributing 
+| **Stage**                                              | **Tasks**                                                                                                                                                                                                                                                   | **Roles**                                                                |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [**1. MLOps Foundation**](1-MLOpsFoundation/README.md) | Understanding MLOps <ul><li> [What's DevOps?](1-MLOpsFoundation/0-DevOpsOverview/README.md) <li> [What's MLOps?](1-MLOpsFoundation/1-MLOpsOverview/README.md) </ul>                                                                                        | Everyone                                                                 |
+|                                                        | Understand Maturity Model <ul> <li> [Determine Organization Capability Level](1-MLOpsFoundation/1-MLOpsOverview/2-MLOpsMaturityModel.md) <li> [Culture and Key Principles](1-MLOpsFoundation/2-SkillsRolesAndResponsibilities/1-AdoptingDSProcess.md) </ul> | Group Manager Team Lead Project Lead                                     |
+|                                                        | Team Formation <ul> <li> [Skills, Roles, and Responsibilities](1-MLOpsFoundation/2-SkillsRolesAndResponsibilities/README.md)) <li> [Deciding on (agile) Delivery Model](1-MLOpsFoundation/2-SkillsRolesAndResponsibilities/1-AdoptingDSProcess.md)  </ul>   | Everyone                                                                 |
+|                                                        | Deliverables <ul> <li> Review the Checklists </ul>                                                                                                                                                                                                          |                                                                          |
+| [**2. Design**](2-Design/README.md)                    | [Review AML Architecture and Design Concepts](2-Design/1-MLOpsArchitectureConcepts.md)                                                                                                                                                                      | Team Lead Solution Architect                                             |
+|                                                        | [Understanding MLOps with Azure AML](2-Design/2-ModelManagement.md)                                                                                                                                                                                         | Team Lead Solution Architect                                             |
+|                                                        | [Make Technology Choices based on your use case and organisation's need](2-Design/3-AMLTechChoices.md)                                                                                                                                                      | Team Lead Solution Architect                                             |
+|                                                        | Security Control for Service Infrastructure <ul> <li> [Use vNET Integrate & Private Link for AML](2-Design/5-EnterpriseSecurity%26Governance.md) </ul>                                                                                                      | Solution Architect Azure Infrastructure Engineer Team Lead               |
+|                                                        | Configuring Access Control <ul> <li> [Secure Access to AML with RBAC](2-Design/6-Authentication.md) <li> Use Custom Roles when required </ul>                                                                                                               | Solution Architect Azure Infrastructure Engineer Team Lead               |
+|                                                        | [Map Team Roles to RBAC](2-Design/7-how-to-assign-roles.md)                                                                                                                                                                                                 | Team Lead Solution Architect                                             |
+|                                                        | [Infrastructure Costs Management](2-Design/8-CostManagement.md)                                                                                                                                                                                             | Solution Architect Azure Infrastructure Engineer Team Lead Administrator |
+|                                                        | Deliverables <ul> <li> Approved Solution Design <li> Review the Checklists </ul>                                                                                                                                                                            |                                                                          |
+| [**3. Deploy** ](3-Deploy/README.md)                   | Accelerate Code Deployment for AML Services <ul> <li> Automate the Deployment of Resourcees <li> Update the Deployment Scripts to Match the approved Solution Design </ul>                                                                                  | Azure Infrastructure Engineer DevOps Engineer Team Lead                  |
+|                                                        | Setting up Local Environment for Development <ul> <li> [Install Tools](3-Deploy/1-SetupLocalEnvironment.md#installing-azure-cli) <li> [Connect to AML](3-Deploy/1-SetupLocalEnvironment.md#connect-to-aml) </ul>                                            | Data Scientist MLOps Engineer Data Engineer                              |
+|                                                        | [Organise AML Environments](3-Deploy/2-OrganizeAMLEnvironment.md)                                                                                                                                                                                           | MLOps Engineer DevOps Engineer                                           |
+|                                                        | [Creating Separate Environments (Dev, Test, Prod)](3-Deploy/3-CreateSeparateEnvironments.md)                                                                                                                                                                | MLOps Engineer DevOps Engineer                                           |
+|                                                        | Deliverables <ul><li> Full Deployed Services on Azure using Automated Pipelines <li> Review the Checklists </ul>                                                                                                                                            |                                                                          |
+| [**4. Migrate**](4-Migrate/README.md)                  | Migrate existing Machine Learning Experiment to AML                                                                                                                                                                                                         | MLOps Engineer                                                           |
+|                                                        | Deliverables <ul><li> Review the Checklists </ul>                                                                                                                                                                                                           |                                                                          |
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+# Contributing
+This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact opencode@microsoft.com with any additional questions or comments.
 
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+# Trademarks
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general). Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party's policies.
