@@ -10,17 +10,20 @@ Before deployment with Azure resources, development teams should:
 
 2. [Learn about model management, deployment, lineage and monitoring with Azure Machine Learning](2-ModelManagement.md).
 
-3. [Understand the technology choices available](/2-Design/3-InfrastructureServiceManagement/1-AMLTechChoices.md).
+3. [Understand the technology choices available](3-InfrastructureServiceManagement/1-AMLTechChoices.md).
 
-4. [Understand the technology Selection criteria for edge deployment](/2-Design/3-InfrastructureServiceManagement/2-EdgeDeployment.md).
+4. [Understand the technology Selection criteria for edge deployment](3-InfrastructureServiceManagement/2-EdgeDeployment.md).
 
-5. [Understand the Enterprise security and governance for Azure Machine Learning](/2-Design/3-InfrastructureServiceManagement/3-EnterpriseSecurity%26Governance.md)
+5. [Understand the Enterprise security and governance for Azure Machine Learning](3-InfrastructureServiceManagement/3-EnterpriseSecurity%26Governance.md)
 
-6. [Set up authentication for Azure Machine Learning resources and workflows](/2-Design//3-InfrastructureServiceManagement/4-Authentication.md)
+6. [Set up authentication for Azure Machine Learning resources and workflows](3-InfrastructureServiceManagement/4-Authentication.md)
 
-7. [Manage access to an Azure Machine Learning workspace](/2-Design//3-InfrastructureServiceManagement/5-how-to-assign-roles.md)
+7. [Manage access to an Azure Machine Learning workspace](3-InfrastructureServiceManagement/5-how-to-assign-roles.md)
 
-8. [Understand cost management of the Azure Machine Learning services](/2-Design/3-InfrastructureServiceManagement/6-cost-management.md)
+8. [Understand cost management of the Azure Machine Learning services](3-InfrastructureServiceManagement/6-cost-management.md)
 
 ## Deliverables
 * [Review the checklist](checklist.md)
+
+> **GET STARTED:** 
+> Start by understanding the architecture and design concepts of Azure Machine Learning [here](1-MLOpsArchitectureConcepts.md).

@@ -22,7 +22,7 @@ Here's the authentication process for Azure Machine Learning using multi-factor 
 1. The client presents the token to Azure Resource Manager and to all Azure Machine Learning.
 1. Azure Machine Learning provides a Machine Learning service token to the user compute target (for example, Azure Machine Learning compute cluster). This token is used by the user compute target to call back into the Machine Learning service after the run is complete. The scope is limited to the workspace.
 
-[![Authentication in Azure Machine Learning](./media/authentication.png)](media/authentication.png#lightbox)
+[![Authentication in Azure Machine Learning](../media/authentication.png)](media/authentication.png#lightbox)
 
 Each workspace has an associated system-assigned [managed identity](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview) that has the same name as the workspace. This managed identity is used to securely access resources used by the workspace. It has the following Azure RBAC permissions on associated resources:
 

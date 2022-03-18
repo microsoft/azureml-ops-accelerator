@@ -176,4 +176,4 @@ For more information on using Azure Pipelines with Azure Machine Learning, see t
 
 You can also use Azure Data Factory to create a data ingestion pipeline that prepares data for use with training. For more information, see [Data ingestion pipeline](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-cicd-data-ingestion).
 
->**NEXT:** Understand how to manage your Azure infrastructures services, see [Infrastructure Service Management](/2-Design/3-InfrastructureServiceManagement/README.md).
+>**NEXT:** Understand how to manage your Azure infrastructures services, see [Infrastructure Service Management](3-InfrastructureServiceManagement/README.md).

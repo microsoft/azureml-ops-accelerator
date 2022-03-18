@@ -66,6 +66,6 @@ Alternatively, you can also deploy your development environments with [YAML Pipe
 11. Commit the YAML file to the main branch.
 12. Azure DevOps will automatically start a pipeline run. Wait for the run to finish.
 
-> **NEXT:** Review the [checklist](/3-Deploy/checklist.md) to see if your team is ready for continuous integration and development (CI/CD) of your Machine Learning services development.
+> **NEXT:** Review the [checklist](checklist.md) to see if your team is ready for continuous integration and development (CI/CD) of your Machine Learning services development.
 >
-> **ADDITIONAL INFO:** Your team can also accelerate the migration of your existing model to AML by referring to the materials and templates [here](/4-Migrate/README.md).
+> **ADDITIONAL INFO:** Your team can also accelerate the migration of your existing model to AML by referring to the materials and templates [here](../4-Migrate/README.md).

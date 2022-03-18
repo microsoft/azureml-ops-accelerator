@@ -28,4 +28,4 @@ Alternatively, to roll out a complete Azure Machine Learning enterprise environm
 ## Deliverables
 * [Review the checklist](checklist.md)
 
-> **ADDITIONAL INFO:** Your team can accelerate the migration of your existing model to AML by referring to the materials and templates [here](/4-Migrate/README.md).
+> **ADDITIONAL INFO:** Your team can accelerate the migration of your existing model to AML by referring to the materials and templates [here](../4-Migrate/README.md).

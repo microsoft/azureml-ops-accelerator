@@ -13,4 +13,4 @@ For continuous integration and development (CI/CD) of your Machine Learning serv
   
 - [ ] [Have you automated the deployment of these services using Infrastructure-as-code (IaC)](https://github.com/vNEXTAU/azureml-ops-accelerator/tree/dev/3-Deploy/ARMTEMPLATES)
 
-> **ADDITIONAL INFO:** Your team can accelerate the migration of your existing model to AML by referring to the materials and templates [here](/4-Migrate/README.md).
+> **ADDITIONAL INFO:** Your team can accelerate the migration of your existing model to AML by referring to the materials and templates [here](../4-Migrate/README.md).
