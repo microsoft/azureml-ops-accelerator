@@ -1,6 +1,7 @@
 [submodule "3-Deploy/azure-machine-learning-terraform"]
 	path = 3-Deploy/azure-machine-learning-terraform
 	url = https://github.com/csiebler/azure-machine-learning-terraform
+
 [submodule "4-Migrate/dstoolkit-mlops-base"]
 	path = 4-Migrate/dstoolkit-mlops-base
 	url = https://github.com/microsoft/dstoolkit-mlops-base

@@ -1,7 +1,7 @@
 ---
 sort: 3
 ---
-# Deployment of Azure Machine Learning Infrastructure
+# AML Infrastructure Deployment
 
 The deployment of Azure Machine Learning Infrastructures requires several steps:
 1. [**Set up local development environment**](1-SetupLocalEnvironment.md). 
@@ -26,5 +26,6 @@ Alternatively, to roll out a complete Azure Machine Learning enterprise environm
 [Azure Machine Learning Enterprise Terraform Example](azure-machine-learning-terraform/README.md).
 
 ## Deliverables
-* Full deployed services on Azure using Automated pipelines
-* Review the checklist
+* [Review the checklist](checklist.md)
+
+> **ADDITIONAL INFO:** Your team can accelerate the migration of your existing model to AML by referring to the materials and templates [here](../4-Migrate/README.md).

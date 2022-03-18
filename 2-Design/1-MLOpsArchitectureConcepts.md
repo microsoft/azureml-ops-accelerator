@@ -28,47 +28,48 @@ The components and procedures dicussed in this section are as follow:
   <tr>
     <td>
       <ol>
-         <li> <a href="#1-workspace"> Workspace</a> 
-         <li> <a href="#2-managed-resources"> Managed Resources</a>
-         <ul style="list-style-type: upper-alpha;"><li><a href="#computes"> Computes</a></ul>
-         <li> <a href="#3-assets"> Assets</a>
+         <li> <a href="#1-workspace"> Workspace</a></li>
+         <li> <a href="#2-managed-resources"> Managed Resources</a></li>
          <ul style="list-style-type: upper-alpha;">
-            <li> <a href="#datasets-and-datastores"> Datasets and Datastores </a>
-            <li> <a href="#environments"> Environments </a>
-            <li> <a href="#experiments"> Experiments </a>
+            <li><a href="#computes"> Computes</a></li>
+         </ul>
+         <li> <a href="#3-assets"> Assets</a></li>
+         <ul style="list-style-type: upper-alpha;">
+            <li> <a href="#datasets-and-datastores"> Datasets and Datastores </a></li>
+            <li> <a href="#environments"> Environments </a></li>
+            <li> <a href="#experiments"> Experiments </a></li>
             <ul style="list-style-type: lower-roman;">
-               <li> <a href="#runs"> Runs </a>
-               <li> <a href="#training-workflow"> Training Workflow </a>
+               <li> <a href="#runs"> Runs </a></li>
+               <li> <a href="#training-workflow"> Training Workflow </a></li>
             </ul>
-            <li> <a href="#models"> Models </a>
+            <li> <a href="#models"> Models </a></li>
             <ul style="list-style-type: lower-roman;"> 
-               <li> <a href="#model-registry"> Model Registry </a>
+               <li> <a href="#model-registry"> Model Registry </a></li>
             </ul>
          </ul>
       </ol>
    </td>
-   <!-- Procedures -->
     <td>
       <ol>
-         <li> <a href="#1-deployment"> Deployment </a>
+         <li> <a href="#1-deployment"> Deployment </a></li>
          <ul style="list-style-type: upper-alpha;">
-            <li><a href="#endpoints"> Endpoints </a>
+            <li><a href="#endpoints"> Endpoints </a></li>
             <ul style="list-style-type: lower-roman;">
-               <li> <a href="#web-service-endpoints"> Web Service Endpoints </a>
-               <li> <a href="#real-time-endpoints"> Real-time Endpoints </a>
-               <li> <a href="#pipeline-endpoints"> Pipeline Endpoints </a>
+               <li> <a href="#web-service-endpoints"> Web Service Endpoints </a></li>
+               <li> <a href="#real-time-endpoints"> Real-time Endpoints </a></li>
+               <li> <a href="#pipeline-endpoints"> Pipeline Endpoints </a></li>
             </ul>
          </ul>
-         <li> <a href="#2-automation"> Automation </a>
+         <li> <a href="#2-automation"> Automation </a></li>
          <ul style="list-style-type: upper-alpha;">
-            <li> <a href="#azure-machine-learning-cli"> Azure Machine Learning CLI </a>
-            <li> <a href="#ml-pipelines"> ML Pipelines </a>
+            <li> <a href="#azure-machine-learning-cli"> Azure Machine Learning CLI </a></li>
+            <li> <a href="#ml-pipelines"> ML Pipelines </a></li>
          </ul>
-         <li> <a href="#3-monitoring-and-logging"> Monitoring and Logging </a>
-         <li> <a href="#4-interacting-with-workspace"> Interacting with Workspace </a>
+         <li> <a href="#3-monitoring-and-logging"> Monitoring and Logging </a></li>
+         <li> <a href="#4-interacting-with-workspace"> Interacting with Workspace </a></li>
          <ul style="list-style-type: upper-alpha;">
-            <li> <a href="#azure-machine-learning-studio"> Azure Machine Learning Studio </a>
-            <li> <a href="#programming-tools"> Programming Tools </a>
+            <li> <a href="#azure-machine-learning-studio"> Azure Machine Learning Studio </a></li>
+            <li> <a href="#programming-tools"> Programming Tools </a></li>
          </ul>
       </ol>
    </td>

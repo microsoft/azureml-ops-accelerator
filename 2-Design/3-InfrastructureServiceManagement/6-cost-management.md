@@ -29,10 +29,10 @@ Hardware requirements for your training workload might vary from project to proj
 
 You might not know yet what your compute requirements are. In this scenario, we recommend starting with either of the following cost effective default options. These options are for lightweight testing and for training workloads.
 
-| **Type** | **Virtual machine size** | **Specs** |
-| --- | --- | --- |
-| CPU | Standard\_DS3\_v2 | 4 cores, 14 gigabytes (GB) RAM, 28-GB storage |
-| GPU | Standard\_NC6 | 6 cores, 56 gigabytes (GB) RAM, 380-GB storage, NVIDIA Tesla K80 GPU |
+| **Type** | **Virtual machine size** | **Specs**                                                            |
+| -------- | ------------------------ | -------------------------------------------------------------------- |
+| CPU      | Standard\_DS3\_v2        | 4 cores, 14 gigabytes (GB) RAM, 28-GB storage                        |
+| GPU      | Standard\_NC6            | 6 cores, 56 gigabytes (GB) RAM, 380-GB storage, NVIDIA Tesla K80 GPU |
 
 To get the best VM size for your scenario, it might consist of trial and error. Here are several aspects to consider.
 
@@ -97,7 +97,7 @@ Based on the insights from the monitoring details, you can better plan or adjust
 
 You can access these metrics directly from the Azure portal. Go to your Azure Machine Learning workspace, and select *Metrics* under the monitoring section on the left panel. Then, you can select details on what you would like to view, such as metrics, aggregation, and time period. For more information, see [Monitor Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/monitor-azure-machine-learning) documentation page.
 
-![Diagram of Azure Monitor metrics for Azure Machine Learning](media/ai-machine-learning-azure-monitor-metrics.png)
+![Diagram of Azure Monitor metrics for Azure Machine Learning](../media/ai-machine-learning-azure-monitor-metrics.png)
 
 ### Switch between local, single-node, and multi-node cloud compute while you develop
 
@@ -217,3 +217,5 @@ When you [pick a region for your compute](https://azure.microsoft.com/global-inf
 ## Learn more
 
 [Track costs across business units, environments, or projects by using the Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/track-costs)
+
+> **NEXT:** Review the [checklist](../checklist.md) to see if your team are ready to move on to [deploying your AML infrastructures](../../3-Deploy/README.md) for your Machine Learning services. 
