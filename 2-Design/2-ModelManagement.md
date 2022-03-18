@@ -172,6 +172,8 @@ For more information on using Azure Pipelines with Azure Machine Learning, see t
 
 * [Continuous integration and deployment of ML models with Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/azure-machine-learning) 
 * [Azure Machine Learning MLOps](https://aka.ms/mlops) repository.
-* [Azure Machine Learning MLOpsPython](https://github.com/Microsoft/MLOpspython) repository.
+* [Azure Machine Learning MLOps Python](https://github.com/Microsoft/MLOpspython) repository.
 
 You can also use Azure Data Factory to create a data ingestion pipeline that prepares data for use with training. For more information, see [Data ingestion pipeline](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-cicd-data-ingestion).
+
+>**NEXT:** Understand how to manage your Azure infrastructures services, see [Infrastructure Service Management](/2-Design/3-InfrastructureServiceManagement/README.md).
