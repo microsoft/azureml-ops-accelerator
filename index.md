@@ -1,5 +1,5 @@
 ---
-sort: 0
+sort: 1
 ---
 # Introduction to the Azure ML-Ops Project Accelerator
 
