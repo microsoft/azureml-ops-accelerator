@@ -16,17 +16,17 @@ The required content is hence spread across the four key areas below:
 To use this accelerator for a new project:
 1. Go to the source [Git Repository](https://github.com/microsoft/azureml-ops-accelerator) 
 2. Click on "Use this template"
-<p align ="center"><img src="usethistemplate.png" alt="Use this template" /></p>
+<p align ="center"><img src="media/usethistemplate.png" alt="Use this template" /></p>
 
 3. In your newly created repository, navigate to "Settings"-> Pages. You should now be in the pane titled "Github Pages". Here under "Source", Select Branch: "main", Folder: "/(root)" and hit Save. This should generate a link to your own Github Pages reference as below. Copy (or Bookmark) this link. 
-<p align ="center"><img src="repo-pagessettings.png" alt="Repo Page Settings" /></p>
+<p align ="center"><img src="media/repo-pagessettings.png" alt="Repo Page Settings" /></p>
 
 4. Navigate back to your repo root page, and on the right hand side verify that the Github Pages environment has been successfully built (as below). This should take a couple of minutes the first time, following which you can access your pages link copied in Step 3.  
-<p align ="center"><img src="ghpages-environment.png" alt="Repo Page Settings" /></p>
+<p align ="center"><img src="media/ghpages-environment.png" alt="Repo Page Settings" /></p>
 
 5. Review your new Github Docs reference link to start consuming the accelerators content. You can now customise it to reflect the specifics of your project, Azure infrastructure needs and Data Science, DevOps processes by modifying your source repository directly. 
 6. To apply the collateral as a phased project with your own team, start at the Getting Started Section as it walks you through a step by step approach to project execution and assigns the relevant project roles and skills to each stage. 
-<p align ="center"><img src="GettingStarted.png" alt="Getting Started" /></p>
+<p align ="center"><img src="media/GettingStarted.png" alt="Getting Started" /></p>
 
 
 **Cloning this Repository**
