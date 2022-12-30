@@ -54,7 +54,7 @@ See [Azure CLI Configuration](https://docs.microsoft.com/en-us/azure/machine-lea
 
 This allows you:
 * To set up your the subscription account used by your local environment.
-* To set common variables for your resouce group, such as name and location to create the resources.
+* To set common variables for your resource group, such as name and location to create the resources.
 * To create Azure resource group.
 * To create a machine learning workspace.
 * To configure the resource group and workspace that have been created with the common variables set.
